@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Padawan.Hotel.Models
 {
@@ -14,5 +15,14 @@ namespace Padawan.Hotel.Models
         public bool Ativo { get; set; }
 
         public virtual Reserva Reserva { get; set; }
+
+        public bool ValidaCpf(string cpf)
+        {
+            Regex rx = new Regex(@"^([0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}$)");
+            var retorno = rx.IsMatch(cpf);
+            return retorno;
+        }
     }
 }
+
+//[0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{2}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2}

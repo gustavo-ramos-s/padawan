@@ -52,7 +52,7 @@ namespace Padawan.Hotel.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Message.Failure + ex.Message);
+                return BadRequest($"{Message.Failure}{ex.Message}");
             }
         }
 
@@ -71,7 +71,7 @@ namespace Padawan.Hotel.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Message.Failure + ex.Message);
+                return BadRequest($"{Message.Failure}{ex.Message}");
             }
 
         }
@@ -97,7 +97,7 @@ namespace Padawan.Hotel.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Message.Failure + ex.Message);
+                return BadRequest($"{Message.Failure}{ex.Message}");
             }
 
         }

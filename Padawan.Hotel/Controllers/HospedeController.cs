@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Padawan.Hotel.Models;
 using Padawan.Hotel.Util;
 using System;
 using System.Collections.Generic;
@@ -10,15 +11,33 @@ namespace Padawan.Hotel.Controllers
     [Route("Hospede")]
     public class HospedeController : ControllerBase
     {
-        public static List<Models.Hospede> minhaLista = new List<Models.Hospede>();
+        public static List<Hospede> minhaLista = new List<Models.Hospede>();
+        private readonly Hospede user;
+
+        public HospedeController()
+        {
+            user = new Hospede();
+        }
 
         [HttpPost]
         [Route("AddHospede")]
-        public ActionResult CadastroHospede(Models.Hospede Hospede)
+        public ActionResult CadastroHospede(Hospede Hospede)
         {
-            minhaLista.Add(Hospede);
 
-            return Ok(minhaLista);
+            try
+            {
+                if (user.ValidaCpf(Hospede.Cpf))
+                {
+                    minhaLista.Add(Hospede);
+                    return Ok(minhaLista);
+                }
+                return BadRequest(Message.Failure);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"{Message.Failure}{ex.Message}");
+            }
+
         }
 
         [HttpPost]
@@ -47,7 +66,7 @@ namespace Padawan.Hotel.Controllers
             }
             catch (Exception ex)
             {
-                return NotFound(Message.Failure + ex.Message);
+                return NotFound($"{Message.Failure}{ex.Message}");
             }
         }
 
@@ -66,7 +85,7 @@ namespace Padawan.Hotel.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(Message.Failure + ex.Message);
+                return BadRequest($"{Message.Failure}{ex.Message}");
             }
         }
 
@@ -78,7 +97,7 @@ namespace Padawan.Hotel.Controllers
             try
             {
                 result.Data = minhaLista.Where(x => x.Cpf == cpfHospede).ToList();
-                result.Data.Select(n=> 
+                result.Data.Select(n =>
                 {
                     n.Nome = NovoNome;
                     return n;
