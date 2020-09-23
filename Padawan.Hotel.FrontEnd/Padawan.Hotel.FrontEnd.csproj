@@ -52,10 +52,10 @@
     <Compile Include="MenuInicial.Designer.cs">
       <DependentUpon>MenuInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaAdministrador\AdicionarHospede.cs">
+    <Compile Include="TelaAdministrador\Gerenciar Hospedes\AdicionarHospede.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaAdministrador\AdicionarHospede.Designer.cs">
+    <Compile Include="TelaAdministrador\Gerenciar Hospedes\AdicionarHospede.Designer.cs">
       <DependentUpon>AdicionarHospede.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -71,6 +71,12 @@
     </Compile>
     <Compile Include="TelaAdministrador\AdicionarReserva.Designer.cs">
       <DependentUpon>AdicionarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.Designer.cs">
+      <DependentUpon>AlterarExcluirHospede.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaAdministrador\MenuAdministrador.cs">
       <SubType>Form</SubType>
@@ -91,7 +97,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TelaAdministrador\AdicionarHospede.resx">
+    <EmbeddedResource Include="TelaAdministrador\Gerenciar Hospedes\AdicionarHospede.resx">
       <DependentUpon>AdicionarHospede.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAdministrador\AdicionarQuarto.resx">
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAdministrador\AdicionarReserva.resx">
       <DependentUpon>AdicionarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.resx">
+      <DependentUpon>AlterarExcluirHospede.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAdministrador\MenuAdministrador.resx">
       <DependentUpon>MenuAdministrador.cs</DependentUpon>

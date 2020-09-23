@@ -72,11 +72,11 @@ namespace Padawan.Hotel.Controllers
 
         [HttpDelete]
         [Route("DeletarHospede")]
-        public ActionResult DeleteHospede(string nome, string sobrenome)
+        public ActionResult DeleteHospede(string nome, string cpf)
         {
             try
             {
-                var result = minhaLista.RemoveAll(x => x.Nome == nome && x.Sobrenome == sobrenome);
+                var result = minhaLista.RemoveAll(x => x.Nome == nome && x.Cpf == cpf);
 
                 if (result == 0)
                     return BadRequest(Message.Failure);

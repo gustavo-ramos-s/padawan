@@ -143,7 +143,7 @@
             this.cmb_Pagamento.Items.AddRange(new object[] {
             "Pago",
             "Pendente"});
-            this.cmb_Pagamento.Location = new System.Drawing.Point(125, 345);
+            this.cmb_Pagamento.Location = new System.Drawing.Point(125, 340);
             this.cmb_Pagamento.Name = "cmb_Pagamento";
             this.cmb_Pagamento.Size = new System.Drawing.Size(121, 21);
             this.cmb_Pagamento.TabIndex = 23;
