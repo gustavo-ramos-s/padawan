@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Padawan.Hotel.Models;
+using Padawan.Hotel.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,34 +39,20 @@ namespace Padawan.Hotel.Controllers
             var result = new Util.UtilResult.Result<List<Quarto>>();
             try
             {
-
                 result.Data = minhaLista.Where(x => x.NumeroQuarto.Contains(Quarto)).ToList();
-
 
                 if (result.Data.Count == 0)
                 {
-                    result.Error = true;
-                    result.Message = Util.Message.Failure;
-                    result.Status = System.Net.HttpStatusCode.InternalServerError;
-
-                    return BadRequest(result);
+                    return BadRequest(Message.Failure);
                 }
                 else
                 {
-                    result.Error = false;
-                    result.Message = Util.Message.Success;
-                    result.Status = System.Net.HttpStatusCode.InternalServerError;
-
-                    return Ok(result);
+                    return Ok(Message.Success);
                 }
             }
             catch (Exception ex)
             {
-                result.Error = true;
-                result.Message = Util.Message.Failure + ex.Message;
-                result.Status = System.Net.HttpStatusCode.InternalServerError;
-
-                return NotFound(result);
+                return BadRequest(Message.Failure + ex.Message);
             }
         }
 
@@ -78,13 +65,13 @@ namespace Padawan.Hotel.Controllers
                 var result = minhaLista.RemoveAll(x => x.NumeroQuarto == Quarto);
 
                 if (result == 0)
-                    return BadRequest(Util.Message.Failure);
+                    return BadRequest(Message.Failure);
                 else
-                    return Ok(Util.Message.Success);
+                    return Ok(Message.Success);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(Message.Failure + ex.Message);
             }
 
         }
@@ -106,13 +93,11 @@ namespace Padawan.Hotel.Controllers
                     return s;
                 }).ToList();
 
-                return Ok(result);
+                return Ok(Message.Success);
             }
             catch (Exception ex)
             {
-                result.Error = true;
-                result.Message = ex.Message;
-                return BadRequest(result);
+                return BadRequest(Message.Failure + ex.Message);
             }
 
         }

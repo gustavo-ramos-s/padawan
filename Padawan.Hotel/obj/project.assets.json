@@ -408,11 +408,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gustavo.santos\\source\\repos\\Padawan.Hotel\\Padawan.Hotel\\Padawan.Hotel.csproj",
+      "projectUniqueName": "C:\\Users\\gustavo.santos\\Documents\\GitHub\\padawan\\Padawan.Hotel\\Padawan.Hotel.csproj",
       "projectName": "Padawan.Hotel",
-      "projectPath": "C:\\Users\\gustavo.santos\\source\\repos\\Padawan.Hotel\\Padawan.Hotel\\Padawan.Hotel.csproj",
+      "projectPath": "C:\\Users\\gustavo.santos\\Documents\\GitHub\\padawan\\Padawan.Hotel\\Padawan.Hotel.csproj",
       "packagesPath": "C:\\Users\\gustavo.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gustavo.santos\\source\\repos\\Padawan.Hotel\\Padawan.Hotel\\obj\\",
+      "outputPath": "C:\\Users\\gustavo.santos\\Documents\\GitHub\\padawan\\Padawan.Hotel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gustavo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",

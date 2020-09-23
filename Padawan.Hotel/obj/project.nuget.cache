@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2j5plL8IkfguOb/Ol5ATRrqxGih+PQCWT4pJeAm19OIUYgLMAPwOXbrzqF4MLarMVz4J0frg8oPuWtdNAUIug==",
+  "dgSpecHash": "YTJ/faa6S0Vaz/sK2GUpcMIvg0wHM29jcsTi4Y4Y39Xx3T6sKcVWRcQWpsjwBFZYd/0yukzXB+0xsfk1x8y2GQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gustavo.santos\\source\\repos\\Padawan.Hotel\\Padawan.Hotel\\Padawan.Hotel.csproj",
+  "projectFilePath": "C:\\Users\\gustavo.santos\\Documents\\GitHub\\padawan\\Padawan.Hotel\\Padawan.Hotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gustavo.santos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\gustavo.santos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
