@@ -12,3 +12,6 @@ C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debu
 C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.csproj.CoreCompileInputs.cache
 C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.exe
 C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.pdb
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.Form_AlterarExcluirHospede.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.Gerenciar_Quarto.Form_AlterarExcluirQuarto.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.GerenciarReserva.Form_AlterarExcluirReserva.resources

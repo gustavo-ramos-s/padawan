@@ -16,5 +16,15 @@ namespace Padawan.Hotel.FrontEnd
         {
             InitializeComponent();
         }
+
+        private void btn_Voltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_Fechar_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }

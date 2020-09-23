@@ -16,7 +16,7 @@ namespace Padawan.Hotel.FrontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_AdicionarHospede());
+            Application.Run(new Form_MenuInicial());
         }
     }
 }

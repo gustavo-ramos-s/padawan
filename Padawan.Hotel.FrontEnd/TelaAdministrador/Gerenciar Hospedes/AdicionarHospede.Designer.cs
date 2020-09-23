@@ -119,6 +119,7 @@
             this.btn_Voltar.TabIndex = 9;
             this.btn_Voltar.Text = "Voltar";
             this.btn_Voltar.UseVisualStyleBackColor = false;
+            this.btn_Voltar.Click += new System.EventHandler(this.btn_Voltar_Click);
             // 
             // btn_Fechar
             // 
@@ -131,6 +132,7 @@
             this.btn_Fechar.TabIndex = 10;
             this.btn_Fechar.Text = "Fechar";
             this.btn_Fechar.UseVisualStyleBackColor = false;
+            this.btn_Fechar.Click += new System.EventHandler(this.btn_Fechar_Click);
             // 
             // btn_SalvarHospede
             // 

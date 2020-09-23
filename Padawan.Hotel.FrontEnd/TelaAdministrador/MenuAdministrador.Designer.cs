@@ -50,6 +50,7 @@
             this.btn_AddHospede.TabIndex = 5;
             this.btn_AddHospede.Text = "Adicionar Hóspede";
             this.btn_AddHospede.UseVisualStyleBackColor = false;
+            this.btn_AddHospede.Click += new System.EventHandler(this.btn_AddHospede_Click);
             // 
             // btn_AlterarExcluirHospede
             // 
@@ -62,6 +63,7 @@
             this.btn_AlterarExcluirHospede.TabIndex = 4;
             this.btn_AlterarExcluirHospede.Text = "Alterar ou Excluir Hóspede";
             this.btn_AlterarExcluirHospede.UseVisualStyleBackColor = false;
+            this.btn_AlterarExcluirHospede.Click += new System.EventHandler(this.btn_AlterarExcluirHospede_Click);
             // 
             // label1
             // 
@@ -84,6 +86,7 @@
             this.btn_Voltar.TabIndex = 6;
             this.btn_Voltar.Text = "Voltar";
             this.btn_Voltar.UseVisualStyleBackColor = false;
+            this.btn_Voltar.Click += new System.EventHandler(this.btn_Voltar_Click);
             // 
             // btn_Fechar
             // 
@@ -96,6 +99,7 @@
             this.btn_Fechar.TabIndex = 7;
             this.btn_Fechar.Text = "Fechar";
             this.btn_Fechar.UseVisualStyleBackColor = false;
+            this.btn_Fechar.Click += new System.EventHandler(this.btn_Fechar_Click);
             // 
             // btn_AddQuarto
             // 
@@ -108,6 +112,7 @@
             this.btn_AddQuarto.TabIndex = 9;
             this.btn_AddQuarto.Text = "Adicionar Quarto";
             this.btn_AddQuarto.UseVisualStyleBackColor = false;
+            this.btn_AddQuarto.Click += new System.EventHandler(this.btn_AddQuarto_Click);
             // 
             // btn_AlterarExcluirQuarto
             // 
@@ -120,6 +125,7 @@
             this.btn_AlterarExcluirQuarto.TabIndex = 8;
             this.btn_AlterarExcluirQuarto.Text = "Alterar ou Excluir Quarto";
             this.btn_AlterarExcluirQuarto.UseVisualStyleBackColor = false;
+            this.btn_AlterarExcluirQuarto.Click += new System.EventHandler(this.btn_AlterarExcluirQuarto_Click);
             // 
             // btn_AddReserva
             // 
@@ -132,6 +138,7 @@
             this.btn_AddReserva.TabIndex = 10;
             this.btn_AddReserva.Text = "Adicionar Reserva";
             this.btn_AddReserva.UseVisualStyleBackColor = false;
+            this.btn_AddReserva.Click += new System.EventHandler(this.btn_AddReserva_Click);
             // 
             // btn_AlterarExcluirReserva
             // 
@@ -144,6 +151,7 @@
             this.btn_AlterarExcluirReserva.TabIndex = 11;
             this.btn_AlterarExcluirReserva.Text = "Alterar ou Excluir Reserva";
             this.btn_AlterarExcluirReserva.UseVisualStyleBackColor = false;
+            this.btn_AlterarExcluirReserva.Click += new System.EventHandler(this.btn_AlterarExcluirReserva_Click);
             // 
             // Form_MenuAdministrador
             // 

@@ -54,6 +54,7 @@
             this.btn_AcessoHospede.TabIndex = 1;
             this.btn_AcessoHospede.Text = "Hospede";
             this.btn_AcessoHospede.UseVisualStyleBackColor = false;
+            this.btn_AcessoHospede.Click += new System.EventHandler(this.btn_AcessoHospede_Click);
             // 
             // btn_AcessoAdministrador
             // 
@@ -66,6 +67,7 @@
             this.btn_AcessoAdministrador.TabIndex = 2;
             this.btn_AcessoAdministrador.Text = "Administrador";
             this.btn_AcessoAdministrador.UseVisualStyleBackColor = false;
+            this.btn_AcessoAdministrador.Click += new System.EventHandler(this.btn_AcessoAdministrador_Click);
             // 
             // Form_MenuInicial
             // 

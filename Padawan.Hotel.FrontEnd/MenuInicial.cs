@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Padawan.Hotel.FrontEnd.TelaAdministrador;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,22 @@ namespace Padawan.Hotel.FrontEnd
         public Form_MenuInicial()
         {
             InitializeComponent();
+        }
+
+        private void btn_AcessoAdministrador_Click(object sender, EventArgs e)
+        {
+            var menuAdministrador = new Form_MenuAdministrador();
+            this.Hide();
+            menuAdministrador.ShowDialog();
+            this.Show();
+        }
+
+        private void btn_AcessoHospede_Click(object sender, EventArgs e)
+        {
+            var menuHospede = new Form_AdicionarHospede();
+            this.Hide();
+            menuHospede.ShowDialog();
+            this.Show();
         }
     }
 }
