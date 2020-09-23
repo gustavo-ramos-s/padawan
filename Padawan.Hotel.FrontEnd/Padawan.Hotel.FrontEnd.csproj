@@ -60,16 +60,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelaAdministrador\AdicionarQuarto.cs">
+    <Compile Include="TelaAdministrador\Gerenciar Quarto\AdicionarQuarto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaAdministrador\AdicionarQuarto.Designer.cs">
+    <Compile Include="TelaAdministrador\Gerenciar Quarto\AdicionarQuarto.Designer.cs">
       <DependentUpon>AdicionarQuarto.cs</DependentUpon>
     </Compile>
-    <Compile Include="TelaAdministrador\AdicionarReserva.cs">
+    <Compile Include="TelaAdministrador\GerenciarReserva\AdicionarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaAdministrador\AdicionarReserva.Designer.cs">
+    <Compile Include="TelaAdministrador\GerenciarReserva\AdicionarReserva.Designer.cs">
       <DependentUpon>AdicionarReserva.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.cs">
@@ -77,6 +77,18 @@
     </Compile>
     <Compile Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.Designer.cs">
       <DependentUpon>AlterarExcluirHospede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAdministrador\Gerenciar Quarto\AlterarExcluirQuarto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdministrador\Gerenciar Quarto\AlterarExcluirQuarto.Designer.cs">
+      <DependentUpon>AlterarExcluirQuarto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAdministrador\GerenciarReserva\AlterarExcluirReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdministrador\GerenciarReserva\AlterarExcluirReserva.Designer.cs">
+      <DependentUpon>AlterarExcluirReserva.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaAdministrador\MenuAdministrador.cs">
       <SubType>Form</SubType>
@@ -100,14 +112,20 @@
     <EmbeddedResource Include="TelaAdministrador\Gerenciar Hospedes\AdicionarHospede.resx">
       <DependentUpon>AdicionarHospede.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaAdministrador\AdicionarQuarto.resx">
+    <EmbeddedResource Include="TelaAdministrador\Gerenciar Quarto\AdicionarQuarto.resx">
       <DependentUpon>AdicionarQuarto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaAdministrador\AdicionarReserva.resx">
+    <EmbeddedResource Include="TelaAdministrador\GerenciarReserva\AdicionarReserva.resx">
       <DependentUpon>AdicionarReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAdministrador\Gerenciar Hospedes\AlterarExcluirHospede.resx">
       <DependentUpon>AlterarExcluirHospede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\Gerenciar Quarto\AlterarExcluirQuarto.resx">
+      <DependentUpon>AlterarExcluirQuarto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\GerenciarReserva\AlterarExcluirReserva.resx">
+      <DependentUpon>AlterarExcluirReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaAdministrador\MenuAdministrador.resx">
       <DependentUpon>MenuAdministrador.cs</DependentUpon>

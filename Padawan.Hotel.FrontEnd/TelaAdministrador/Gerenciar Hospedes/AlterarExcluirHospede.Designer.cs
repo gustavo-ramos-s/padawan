@@ -31,7 +31,7 @@
             this.btn_Fechar = new System.Windows.Forms.Button();
             this.btn_Voltar = new System.Windows.Forms.Button();
             this.txt_CpfHospedeExcluir = new System.Windows.Forms.TextBox();
-            this.txt_NomeHospede = new System.Windows.Forms.TextBox();
+            this.txt_NomeHospedeBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_ExcluirHospede = new System.Windows.Forms.Button();
@@ -75,12 +75,12 @@
             this.txt_CpfHospedeExcluir.Size = new System.Drawing.Size(167, 20);
             this.txt_CpfHospedeExcluir.TabIndex = 16;
             // 
-            // txt_NomeHospede
+            // txt_NomeHospedeBuscar
             // 
-            this.txt_NomeHospede.Location = new System.Drawing.Point(125, 190);
-            this.txt_NomeHospede.Name = "txt_NomeHospede";
-            this.txt_NomeHospede.Size = new System.Drawing.Size(167, 20);
-            this.txt_NomeHospede.TabIndex = 15;
+            this.txt_NomeHospedeBuscar.Location = new System.Drawing.Point(125, 190);
+            this.txt_NomeHospedeBuscar.Name = "txt_NomeHospedeBuscar";
+            this.txt_NomeHospedeBuscar.Size = new System.Drawing.Size(167, 20);
+            this.txt_NomeHospedeBuscar.TabIndex = 15;
             // 
             // label2
             // 
@@ -193,7 +193,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_ExcluirHospede);
             this.Controls.Add(this.txt_CpfHospedeExcluir);
-            this.Controls.Add(this.txt_NomeHospede);
+            this.Controls.Add(this.txt_NomeHospedeBuscar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Fechar);
@@ -210,7 +210,7 @@
         private System.Windows.Forms.Button btn_Fechar;
         private System.Windows.Forms.Button btn_Voltar;
         private System.Windows.Forms.TextBox txt_CpfHospedeExcluir;
-        private System.Windows.Forms.TextBox txt_NomeHospede;
+        private System.Windows.Forms.TextBox txt_NomeHospedeBuscar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_ExcluirHospede;
