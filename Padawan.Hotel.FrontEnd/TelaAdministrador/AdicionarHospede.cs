@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Padawan.Hotel.FrontEnd
 {
-    public partial class Form1 : Form
+    public partial class Form_AdicionarHospede : Form
     {
-        public Form1()
+        public Form_AdicionarHospede()
         {
             InitializeComponent();
         }

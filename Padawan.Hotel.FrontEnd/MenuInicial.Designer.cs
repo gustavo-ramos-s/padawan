@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(119, 163);
+            this.label1.Location = new System.Drawing.Point(257, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(232, 25);
             this.label1.TabIndex = 0;
@@ -46,9 +46,9 @@
             // btn_AcessoHospede
             // 
             this.btn_AcessoHospede.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btn_AcessoHospede.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AcessoHospede.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AcessoHospede.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_AcessoHospede.Location = new System.Drawing.Point(124, 231);
+            this.btn_AcessoHospede.Location = new System.Drawing.Point(245, 310);
             this.btn_AcessoHospede.Name = "btn_AcessoHospede";
             this.btn_AcessoHospede.Size = new System.Drawing.Size(247, 50);
             this.btn_AcessoHospede.TabIndex = 1;
@@ -58,9 +58,9 @@
             // btn_AcessoAdministrador
             // 
             this.btn_AcessoAdministrador.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btn_AcessoAdministrador.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AcessoAdministrador.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_AcessoAdministrador.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_AcessoAdministrador.Location = new System.Drawing.Point(124, 310);
+            this.btn_AcessoAdministrador.Location = new System.Drawing.Point(245, 210);
             this.btn_AcessoAdministrador.Name = "btn_AcessoAdministrador";
             this.btn_AcessoAdministrador.Size = new System.Drawing.Size(247, 50);
             this.btn_AcessoAdministrador.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.BackgroundImage = global::Padawan.Hotel.FrontEnd.Properties.Resources.frame_padawan_hotel;
-            this.ClientSize = new System.Drawing.Size(731, 571);
+            this.ClientSize = new System.Drawing.Size(737, 574);
             this.Controls.Add(this.btn_AcessoAdministrador);
             this.Controls.Add(this.btn_AcessoHospede);
             this.Controls.Add(this.label1);

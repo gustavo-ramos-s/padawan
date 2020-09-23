@@ -79,6 +79,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TelaAdministrador\AdicionarHospede.resx">
+      <DependentUpon>AdicionarHospede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\EditarHospede.resx">
+      <DependentUpon>EditarHospede.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
