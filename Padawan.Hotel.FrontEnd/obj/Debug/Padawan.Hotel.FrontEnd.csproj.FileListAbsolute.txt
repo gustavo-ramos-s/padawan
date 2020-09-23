@@ -1,0 +1,14 @@
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\bin\Debug\Padawan.Hotel.FrontEnd.exe.config
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\bin\Debug\Padawan.Hotel.FrontEnd.exe
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\bin\Debug\Padawan.Hotel.FrontEnd.pdb
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.csprojAssemblyReference.cache
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.Form_MenuInicial.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.Properties.Resources.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.Form_AdicionarHospede.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.Form_AdicionarQuarto.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.Form_AdicionarReserva.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.TelaAdministrador.Form_MenuAdministrador.resources
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.csproj.GenerateResource.cache
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.exe
+C:\Users\gustavo.santos\Documents\GitHub\padawan\Padawan.Hotel.FrontEnd\obj\Debug\Padawan.Hotel.FrontEnd.pdb

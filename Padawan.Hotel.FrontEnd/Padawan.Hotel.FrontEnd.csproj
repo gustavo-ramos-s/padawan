@@ -60,11 +60,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TelaAdministrador\EditarHospede.cs">
+    <Compile Include="TelaAdministrador\AdicionarQuarto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaAdministrador\EditarHospede.Designer.cs">
-      <DependentUpon>EditarHospede.cs</DependentUpon>
+    <Compile Include="TelaAdministrador\AdicionarQuarto.Designer.cs">
+      <DependentUpon>AdicionarQuarto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAdministrador\AdicionarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdministrador\AdicionarReserva.Designer.cs">
+      <DependentUpon>AdicionarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaAdministrador\MenuAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAdministrador\MenuAdministrador.Designer.cs">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MenuInicial.resx">
       <DependentUpon>MenuInicial.cs</DependentUpon>
@@ -82,8 +94,14 @@
     <EmbeddedResource Include="TelaAdministrador\AdicionarHospede.resx">
       <DependentUpon>AdicionarHospede.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TelaAdministrador\EditarHospede.resx">
-      <DependentUpon>EditarHospede.cs</DependentUpon>
+    <EmbeddedResource Include="TelaAdministrador\AdicionarQuarto.resx">
+      <DependentUpon>AdicionarQuarto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\AdicionarReserva.resx">
+      <DependentUpon>AdicionarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaAdministrador\MenuAdministrador.resx">
+      <DependentUpon>MenuAdministrador.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -103,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\frame-padawan-hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TelasHospede\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

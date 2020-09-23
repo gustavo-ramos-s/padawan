@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Padawan.Hotel.FrontEnd.TelaAdministrador
 {
-    public partial class Form_EditarHospede : Form
+    public partial class Form_AdicionarQuarto : Form
     {
-        public Form_EditarHospede()
+        public Form_AdicionarQuarto()
         {
             InitializeComponent();
         }
